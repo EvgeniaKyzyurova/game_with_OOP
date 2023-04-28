@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+header{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: #fff 2px 0px 2px, #fff 0px 2px 2px, #fff 0px -2px 2px, #fff -2px 0px 2px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(68, 68, 160);
+    box-shadow: 2px 2px 2px 1px #fff;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.fight{
+    position: relative;
+    top: 200px;
+}
+.hidden{
+    display: none !important;
+}
+.characters-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(3, 3, 47);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 250px;
+    height: 380px;
+    padding: 20px;
+}
+.hero:hover{
+    box-shadow: #fff 5px 0px 5px, #fff 0px 5px 5px, #fff 0px -5px 5px, #fff -5px 0px 5px;
+}
+.hero p{
+    margin-bottom: 0;
+}
+.battle-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+progress {
+    background-color: white;
+    border-radius: 10px;
+    height: 10px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #039603 !important;
+}
